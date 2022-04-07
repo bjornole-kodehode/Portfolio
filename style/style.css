@@ -176,6 +176,7 @@ header {
 .project:hover,
 .project:focus {
     color: #366AD0;
+    background: #ddd;
 }
 
 .kontakt {
@@ -199,6 +200,7 @@ header {
 .kontakt-email {
     display: flex;
     gap: 20px;
+
 }
 
 footer {
