@@ -166,6 +166,7 @@ header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    min-height: 300px;
 }
 
 .project img {
@@ -221,4 +222,8 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+footer :last-child {
+    font-size: 10px;
 }
