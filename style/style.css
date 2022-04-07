@@ -165,7 +165,8 @@ header {
 }
 
 footer {
-    background-color: #4F4E67;
+    /* background-color: #4F4E67; */
+    background: linear-gradient(90deg, rgba(101,81,128,1) 0%, rgb(138, 14, 59) 100%)   no-repeat;
     color: #fff;
     height: 60px;
     display: flex;
