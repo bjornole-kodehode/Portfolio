@@ -139,12 +139,25 @@ header {
 }
 
 .projects-title {
-    text-align: center;
-    margin: 0;
+    
+    
     font-size: 40px;
     font-family: "inter", sans-serif;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
 }
 
+.projects-title:before {
+  content : "";
+  position: absolute;
+  left    : 35%;
+  bottom  : 0;
+  height  : 1px;
+  width   : 75px;
+  border-bottom:10px solid #8A0E3B;
+}
 
 
 .projects {
@@ -176,6 +189,11 @@ header {
     object-fit: cover;
 }
 
+.projects  a{
+    text-decoration: none;
+    color: #000;
+}
+
 .project:hover,
 .project:focus {
     color: #366AD0;
@@ -190,6 +208,8 @@ header {
     width: 420px;
     margin-bottom: 3.125em;
 }
+
+
 .kontakt h3 {
     margin: 0 auto;
     font-size: 40px;
