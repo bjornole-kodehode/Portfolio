@@ -73,8 +73,9 @@ header {
     box-shadow: 1px 6px 30px 24px #0000001A;
     margin-bottom: 200px;
     position: absolute;
-    top: 39%;
-    left: 14%;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
