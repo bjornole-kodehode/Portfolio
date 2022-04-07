@@ -148,7 +148,7 @@ header {
 .projects {
     display: grid;
     justify-content: center;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     padding: 100px;
 }
 
@@ -168,6 +168,9 @@ header {
 
 .project img {
     margin-bottom: 20px;
+    inline-size: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
 }
 
 .project:hover,
