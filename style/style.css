@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    position: fixed;
+    
     display: flex;
     justify-content: right;
     align-items: center;
@@ -132,9 +132,20 @@ header {
     
 }
 
+.projects-container {
+    margin-top: 400px;
+}
+
+.projects-title {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    font-family: "inter", sans-serif;
+}
+
+
 
 .projects {
-    margin-top: 400px;
     display: grid;
     justify-content: center;
     grid-template-columns: auto auto;
@@ -162,6 +173,29 @@ header {
 .project:hover,
 .project:focus {
     color: #366AD0;
+}
+
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 420px;
+    margin-bottom: 50px;
+}
+.kontakt h3{
+    margin: 0 auto;
+    font-size: 40px;
+    display: flex;
+    font-family: "inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.kontakt-email {
+    display: flex;
+    gap: 20px;
 }
 
 footer {
