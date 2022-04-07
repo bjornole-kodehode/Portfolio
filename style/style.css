@@ -247,3 +247,9 @@ footer {
 footer :last-child {
     font-size: 10px;
 }
+
+.test {
+    position: absolute;
+    width: 75%;
+    
+}
