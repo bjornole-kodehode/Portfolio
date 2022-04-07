@@ -251,5 +251,5 @@ footer :last-child {
 .test {
     position: absolute;
     width: 75%;
-    
+    height: 120px;
 }
