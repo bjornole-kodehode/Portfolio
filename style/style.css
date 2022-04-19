@@ -128,17 +128,18 @@ header {
 }
 
 .about-mob {
-        width: /* 950px */ 75%;
-        border-radius: 40px;
-        background-color: #fff;
-        font-size: 1.375rem;
-        padding: 40px;
-        box-shadow: 1px 6px 30px 24px #0000001A;
-        margin-bottom: 200px;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        margin-left: 15px;
+    display: none;
+    width: /* 950px */ 75%;
+    border-radius: 40px;
+    background-color: #fff;
+    font-size: 1.375rem;
+    padding: 40px;
+    box-shadow: 1px 6px 30px 24px #0000001A;
+    margin-bottom: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 15px;
 }
 
 /* ... */
@@ -270,9 +271,7 @@ header {
     margin-bottom: 3.125em;
 }
 
-.about-mob {
-    display: none;
-}
+
 .kontakt h3 {
     margin: 0 auto;
     font-size: 40px;
