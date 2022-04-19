@@ -11,6 +11,7 @@ html {
 body {
     background: #ECECEC;
     font-family: "poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 .hero {
@@ -20,6 +21,7 @@ body {
     position: relative;
     margin-top: 60px;
     padding-top: 20px;
+    
 }
 
 header {
@@ -125,6 +127,20 @@ header {
     
 }
 
+.about-mob {
+        width: /* 950px */ 75%;
+        border-radius: 40px;
+        background-color: #fff;
+        font-size: 1.375rem;
+        padding: 40px;
+        box-shadow: 1px 6px 30px 24px #0000001A;
+        margin-bottom: 200px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 15px;
+}
+
 /* ... */
 
 
@@ -160,8 +176,8 @@ header {
 /* Projects section */
 
 .projects-container {
-    margin-top: 200px;
-    padding-top: 60px;
+    margin-top: 200px; 
+    padding-top: 60px; 
 }
 
 .projects-title {
@@ -254,7 +270,9 @@ header {
     margin-bottom: 3.125em;
 }
 
-
+.about-mob {
+    display: none;
+}
 .kontakt h3 {
     margin: 0 auto;
     font-size: 40px;
@@ -313,3 +331,57 @@ footer :last-child {
     }
 }
 
+@media screen  and (max-width: 675px) {
+    .nav-links {
+        margin-right: 80px;
+    }
+    .about {
+        display: none;
+    }
+    .about-mob {
+        display: block;
+    }
+
+    .about-mob a {
+        width: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(138, 14, 59);
+        margin-top: 20px;
+        margin-right: 00px;
+    }
+
+    .space {
+        display: block;
+    }
+
+    .projects-container {
+        margin-top: 150px;
+        
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .name {
+        width: 400px;
+    }
+    .links {
+        width: 400px;
+    }
+    .hero {
+        width: 420px;
+    }
+    .kontakt-email {
+        margin-left: 50px;
+    }
+    footer {
+        width: 420px;
+    }
+}
