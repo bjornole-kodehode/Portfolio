@@ -12,6 +12,8 @@ body {
     background: #ECECEC;
     font-family: "poppins", sans-serif;
     overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 .hero {
@@ -306,7 +308,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 footer :last-child {
@@ -330,7 +331,7 @@ footer :last-child {
     }
 }
 
-@media screen  and (max-width: 675px) {
+@media screen  and (max-width: 950px) {
     .nav-links {
         margin-right: 80px;
     }
@@ -375,12 +376,10 @@ footer :last-child {
         width: 400px;
     }
     .hero {
-        width: 420px;
+       
     }
     .kontakt-email {
         margin-left: 50px;
     }
-    footer {
-        width: 420px;
-    }
+    
 }
