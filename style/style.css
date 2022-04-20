@@ -343,14 +343,14 @@ footer :last-child {
     }
 
     .about-mob a {
-        width: 200px;
+        
         margin: 0 auto;
         display: flex;
         justify-content: center;
         text-decoration: none;
         color: rgb(138, 14, 59);
         margin-top: 20px;
-        margin-right: 00px;
+        
     }
 
     .space {
