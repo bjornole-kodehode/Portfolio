@@ -138,7 +138,7 @@ body {
     width: /* 950px */ 75%;
     border-radius: 40px;
     background-color: #fff;
-    font-size: 1.375rem;
+    font-size: clamp(.3rem, 5vw, 1rem);
     padding: 40px;
     box-shadow: 1px 6px 30px 24px #0000001A;
     margin-bottom: 200px;
@@ -304,7 +304,7 @@ body {
 
 /* ... */
 
-footer {
+.footer {
     background: linear-gradient(90deg, rgba(101,81,128,1) 0%, rgb(138, 14, 59) 100%)   no-repeat;
     color: #fff;
     height: 60px;
@@ -312,9 +312,10 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-footer :last-child {
+.footer :last-child {
     font-size: 10px;
 }
 
@@ -378,11 +379,13 @@ footer :last-child {
     .links {
         width: 400px;
     }
-    .hero {
-       
-    }
+
     .kontakt-email {
         margin-left: 50px;
+    }
+
+    .footer {
+        width: 100%;
     }
     
 }
