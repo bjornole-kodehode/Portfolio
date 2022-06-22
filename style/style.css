@@ -28,6 +28,13 @@ body {
     
 }
 
+.hero--pb {
+    width: 230px;
+    height: 230px; 
+    border-radius: 50%; 
+    border: #fff solid 3px;
+}
+
 .navbar {
     
     display: flex;
