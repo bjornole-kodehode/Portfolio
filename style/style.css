@@ -18,7 +18,9 @@ body {
 
 .hero {
     background: linear-gradient(90deg, rgba(101,81,128,1) 0%, rgb(138, 14, 59) 100%)   no-repeat;
-    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
     height: 450px;
     position: relative; 
     margin-top: 60px;
