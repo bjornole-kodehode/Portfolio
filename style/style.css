@@ -352,7 +352,7 @@ body {
     .about {
         display: none;
     }
-    .hero > img {
+    .hero--pb {
         display: none;
     }
     .about-mob {
