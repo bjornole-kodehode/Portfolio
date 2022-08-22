@@ -242,7 +242,9 @@ body {
     margin-bottom: 20px;
     inline-size: 100%;
     aspect-ratio: 16 / 9;
-    object-fit: contain; /* cover */ 
+    object-fit: contain; /* cover */
+    width: 300;
+    height: 250;
 }
 
 .projects  a{
